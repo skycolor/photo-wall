@@ -1,6 +1,9 @@
 require('normalize.css/normalize.css');
 require('styles/App.scss');
 
+require('../lib/zepto.min.js');
+require('../lib/canvasLib.js');
+
 
 import React from 'react';
 import ReactDOM from 'react-dom';
